@@ -1,4 +1,6 @@
-"""Day 08 LangGraph agent lab starter."""
+from dotenv import load_dotenv
+import os
 
-__all__ = ["__version__"]
-__version__ = "0.1.0"
+# Load .env file at the package level to ensure LangSmith tracing and other 
+# environment variables are available to all modules.
+load_dotenv()
